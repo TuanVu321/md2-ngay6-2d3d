@@ -20,7 +20,7 @@ public class Shape3D extends Shape2D {
         setXY(x,y);
         this.z=z;
     }
-    public float[] getXYZ(float x, float y,float z){
+    public float[] getXYZ(){
         return new float[]{super.getX(),super.getY(),this.z};
     }
 
